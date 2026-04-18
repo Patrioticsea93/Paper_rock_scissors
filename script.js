@@ -1,4 +1,4 @@
-console.log("Hello World");
+// console.log("Hello World");
 
 function getComputerChoice() {
   const choices = ["rock", "paper", "scissors"];
@@ -6,4 +6,10 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
-console.log(getComputerChoice);
+// console.log(getComputerChoice());
+
+function getHumanChoice() {
+  return prompt("Enter rock, paper, or scissors:").toLowerCase();
+}
+
+console.log(getHumanChoice());
